@@ -16,8 +16,8 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 
 def maxProfit(prices):
-    left=0
-    right=0
+    left=0  # buyStock
+    right=0 # sellStock
     maxP=0
     
     while right<len(prices):
